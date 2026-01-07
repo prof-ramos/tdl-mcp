@@ -4,8 +4,8 @@
   "type": "module",
   "module": "./src/server.ts",
   "scripts": {
-    "dev": "tsx src/server.ts",
-    "build": "tsc",
+    "dev": "npx smithery dev src/server.ts",
+    "build": "npx smithery build src/server.ts",
     "start": "node dist/server.js"
   },
   "keywords": [],
@@ -17,6 +17,8 @@
     "zod": "^4.3.5"
   },
   "devDependencies": {
+    "@smithery/cli": "^3.0.1",
+    "@smithery/sdk": "^3.0.1",
     "@types/node": "^25.0.3",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
