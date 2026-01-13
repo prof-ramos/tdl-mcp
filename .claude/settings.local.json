@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_context7_context7__resolve-library-id",
+      "mcp__plugin_context7_context7__query-docs",
+      "Bash(npm run build:*)",
+      "Bash(tdl --help:*)",
+      "Bash(tdl forward:*)",
+      "Bash(tdl upload:*)",
+      "Bash(tdl chat:*)",
+      "WebSearch"
+    ]
+  }
+}

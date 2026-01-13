@@ -5,13 +5,13 @@
   "module": "./src/server.ts",
   "scripts": {
     "dev": "npx smithery dev src/server.ts",
-    "build": "npx smithery build src/server.ts",
-    "start": "node dist/server.js"
+    "build": "tsc && npx smithery build src/server.ts",
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Servidor Model Context Protocol (MCP) para a CLI do tdl (Telegram Downloader)",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.25.2",
     "zod": "^4.3.5"
